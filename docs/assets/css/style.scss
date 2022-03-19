@@ -7,11 +7,15 @@ header,
 body {
     background: #121423;
 }
-#banner,
+#banner {
+    background: #fff;
+    border: 1px solid #fff;
+}
 #banner .fork,
 #banner .button {
-    background: #FF4978;
-    border: 1px solid #FF4978;
+    background: #FF4978 !important;
+    border: 1px solid #FF4978 !important;
+    box-shadow: none !important;
 }
 #banner .fork {
     color: #fff;
