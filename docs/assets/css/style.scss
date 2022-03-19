@@ -3,6 +3,16 @@
 
 @import "{{ site.theme }}";
 
-header {
+header,
+body {
     background: #121423;
+}
+#banner,
+#banner .fork,
+#banner .button {
+    background: #FF4978;
+    border: 1px solid #FF4978;
+}
+#banner .fork {
+    color: #fff;
 }
