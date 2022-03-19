@@ -10,6 +10,8 @@ body {
 #banner {
     background: #fff;
     border: 1px solid #fff;
+    margin-right: auto;
+    right: 40px;
 }
 #banner .fork,
 #banner .button,
@@ -25,5 +27,9 @@ body {
 }
 
 section {
-    width: 645px;
+    width: 100%;
+}
+.wrapper {
+    width: 915px;
+    margin: 0 40px 0 auto;
 }
